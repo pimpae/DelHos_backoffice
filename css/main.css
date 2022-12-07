@@ -1,0 +1,260 @@
+@font-face {
+  font-family: 'Inter';
+  font-style:  normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url("../fonts/Inter-Regular.woff2?v=3.19") format("woff2"),
+       url("../fonts/Inter-Regular.woff?v=3.19") format("woff");
+} 
+
+@font-face {
+  font-family: 'Inter';
+  font-style:  normal;
+  font-weight: 500;
+  font-display: swap;
+  src: url("../fonts/Inter-Medium.woff2?v=3.19") format("woff2"),
+       url("../fonts/Inter-Medium.woff?v=3.19") format("woff");
+} 
+@font-face {
+  font-family: 'Inter';
+  font-style:  normal;
+  font-weight: 600;
+  font-display: swap;
+  src: url("../fonts/Inter-SemiBold.woff2?v=3.19") format("woff2"),
+       url("../fonts/Inter-SemiBold.woff?v=3.19") format("woff");
+}  
+@font-face {
+  font-family: 'Inter';
+  font-style:  normal;
+  font-weight: 700;
+  font-display: swap;
+  src: url("../fonts/Inter-Bold.woff2?v=3.19") format("woff2"),
+       url("../fonts/Inter-Bold.woff?v=3.19") format("woff");
+}  
+@font-face{
+  font-family: NotoSansThai-Regular;
+  src: url(../fonts/NotoSansThai-Regular.ttf);
+  font-style: normal;
+  font-variant:initial;
+}  
+@font-face{
+  font-family: NotoSansThai-Medium;
+  src: url(../fonts/NotoSansThai-Medium.ttf);
+  font-style: normal;
+  font-variant:initial;
+}    
+@font-face{
+  font-family: NotoSansThai-SemiBold;
+  src: url(../fonts/NotoSansThai-SemiBold.ttf);
+  font-style: normal;
+  font-variant:initial;
+}    
+@font-face{
+  font-family: NotoSansThai-Bold;
+  src: url(../fonts/NotoSansThai-Bold.ttf);
+  font-style: normal;
+  font-variant:initial;
+}   
+a:hover{
+  text-decoration: none;
+}  
+   
+@media only screen and (max-width: 1024px) { /* MOBILE */
+  .mb-x{
+    display: none !important;
+  }  
+}
+@media only screen and (min-width: 1025px) { /* PC */
+  .pc-x{
+    display: none !important;
+  }  
+}  
+.login1-main{
+  background: linear-gradient(270deg, #FFFFFF 43.91%, rgba(255, 255, 255, 0.24) 100.87%) , url(../images/BG1.png);
+  background-position: center , left top !important;
+  background-repeat: no-repeat , no-repeat;
+  background-size: 100% , 60% auto !important;
+  height: 100vh;
+}
+.form-loginx{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+.form-loginx .logo{
+  max-height: 80px;
+  margin-bottom: 40px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  max-width: 100%;
+} 
+.form-loginx label{
+  font-family: 'Inter'; 
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 24px; 
+  color: #18181B;
+
+}
+.form-loginx input{ 
+  height: 50px;  
+  background: #FFFFFF; 
+  border: 1px solid #DEDCE7;
+  border-radius: 8px;
+  margin-bottom: 15px;
+}
+.form-loginx input:focus{
+  box-shadow: none;
+  border: 1px solid #224096;
+}
+.form-loginx > div{
+  width: 100%;
+} 
+.form-loginx input + span{ 
+  right: 20px;
+  margin-top: 53px;
+  position: absolute;
+  z-index: 2;
+  color: #AEAEAE;;
+  cursor: pointer;
+} 
+.form-loginx .custom-control-label{
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 24px; 
+  color: #18181B;
+}
+.form-loginx .custom-control-input:checked~.custom-control-label::before {
+  color: #fff;
+  border-color: #F29D29;
+  background-color: #F29D29;
+}
+.form-loginx .link-text{ 
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 24px;  
+  color: #224096;
+}
+.form-loginx .btn.bt-login{ 
+  width: 100%;
+  display: block; 
+  height: 50px; 
+  background: linear-gradient(95.78deg, #3A8EF6 -47.27%, #224096 108.92%);
+  box-shadow: 0px 8px 23px rgba(65, 132, 247, 0.24);
+  border-radius: 8px;
+  font-family: NotoSansThai-SemiBold; 
+  font-size: 20px;
+  line-height: 20px; 
+  color: #FFFFFF; 
+}
+.form-loginx h5{
+  font-family: NotoSansThai-Regular; 
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 24px; 
+  text-align: center;
+  color: #666666;
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
+.form-loginx .btn.bt-ss{ 
+  width: 100%;
+  display: block; 
+  height: 50px; 
+  background: #FFFFFF; 
+  border: 1px solid #DDDDDD;
+  border-radius: 8px;
+  margin-bottom: 20px; 
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 40px; 
+  color: #18181B; 
+
+}
+.form-loginx .btn.bt-ss img{ 
+  width: 24px;
+  height: 24px;
+}
+.form-loginx .btn.btn-language{  
+  width: 104px;
+  height: 60px;  
+  background: #FFFFFF; 
+  border: 1px solid #DDDDDD;
+  border-radius: 8px;
+  margin-left: 20px;
+  margin-right: 20px;
+  transition: .33s all ease-out;
+}
+.form-loginx .btn.btn-language img{ 
+  width: 44px;
+  height: 32px;
+  border-radius: 10px;
+  object-fit: cover;
+}
+.form-loginx .btn.btn-language:hover{  
+  box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.08);
+  border: 1px solid #fff; 
+}
+.form-loginx .btn.btn-language.active{  
+  box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.08);
+  border: 1px solid #fff; 
+}
+.form-loginx .btn.btn-language:focus{  
+  box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.08);
+  border: 1px solid #fff; 
+}
+small{
+ position: absolute;
+ bottom: 0;
+ margin-bottom: 25px;
+ text-align: center;
+ width: 100%;
+}
+
+
+
+
+
+/*  
+  font-family: NotoSansThai-Bold; 
+  SemiBold Regular 
+  font-family: 'Inter';
+Blue        #224096
+Blue Sky    #3AA3F4
+Orang       #F29D29
+Black       #18181B
+Light_Blue  #9DABD3 
+*/
+/* transition: .33s all ease-out;  */ 
+
+@media only screen and (max-width: 991px) { /* MOBILE */   
+  .form-loginx{  
+    padding: 20px;
+  } 
+  .login1-main{
+    background: linear-gradient(270deg, #FFFFFF 43.91%, rgba(255, 255, 255, 0.24) 100.87%) , url(../images/BG1.png);
+    background-position: center , 70% !important;
+    background-repeat: no-repeat , no-repeat;
+    background-size: 100% , auto 100%  !important;
+    height: 100%;
+  }
+  small{ 
+    margin-bottom: 15px; 
+  }
+  .form-loginx h5 { 
+    margin-top: 15px;
+    margin-bottom: 15px;
+  }
+  .form-loginx .logo {
+    max-height: 60px;
+    margin-bottom: 30px; 
+  }
+}
