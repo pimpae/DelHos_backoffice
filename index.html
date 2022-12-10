@@ -9,15 +9,76 @@
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
     <link href="css/main.css" rel="stylesheet" type="text/css" />   
     <link rel="icon" type="image/x-icon" href="images/logo1.png"> 
-    <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css"/>  
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/lightslider/1.1.6/css/lightslider.css" />
- 
-	
+    <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css"/>     
+    
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-datepicker/1.9.0/css/bootstrap-datepicker.min.css"  /> 
+
+
 </head>
 <body class="main-b"> 
     <main>
         <div class="menu-top">
-
+            
+            <div class="dropdown dropdown-nofi">
+                <a id="dLabel" role="button" data-toggle="dropdown" data-target="#" href="#">
+                    <i class="fas fa-bell"></i>
+                    <p>12</p>
+                </a>
+                <ul class="dropdown-menu dropdown-menu-right notifications" role="menu" aria-labelledby="dLabel">
+                    <div class="notification-heading">
+                        <h4 class="menu-title">Notifications</h4>
+                        <h4 class="menu-title pull-right">View all<i class="glyphicon glyphicon-circle-arrow-right"></i></h4>
+                    </div>
+                    <li class="divider"></li>
+                    <div class="notifications-wrapper">
+                        <a class="content" href="#">
+                            <div class="notification-item">
+                                <h4 class="item-title">Evaluation Deadline 1 · day ago</h4>
+                                <p class="item-info">Marketing 101, Video Assignment</p>
+                            </div>
+                        </a>
+                        <a class="content" href="#">
+                            <div class="notification-item">
+                                <h4 class="item-title">Evaluation Deadline 1 · day ago</h4>
+                                <p class="item-info">Marketing 101, Video Assignment</p>
+                            </div>
+                        </a>
+                        <a class="content" href="#">
+                            <div class="notification-item">
+                                <h4 class="item-title">Evaluation Deadline 1 • day ago</h4>
+                                <p class="item-info">Marketing 101, Video Assignment</p>
+                            </div>
+                        </a>
+                        <a class="content" href="#">
+                            <div class="notification-item">
+                                <h4 class="item-title">Evaluation Deadline 1 • day ago</h4>
+                                <p class="item-info">Marketing 101, Video Assignment</p>
+                            </div>
+                        </a>
+                        <a class="content" href="#">
+                            <div class="notification-item">
+                                <h4 class="item-title">Evaluation Deadline 1 • day ago</h4>
+                                <p class="item-info">Marketing 101, Video Assignment</p>
+                            </div>
+                        </a>
+                        <a class="content" href="#">
+                            <div class="notification-item">
+                                <h4 class="item-title">Evaluation Deadline 1 • day ago</h4>
+                                <p class="item-info">Marketing 101, Video Assignment</p>
+                            </div>
+                        </a>
+                    </div>
+                    <li class="divider"></li>
+                    <div class="notification-footer">
+                        <h4 class="menu-title">View all<i class="glyphicon glyphicon-circle-arrow-right"></i></h4>
+                    </div>
+                </ul>
+            </div>
+            
+            <a href="#" class="user" >
+                <img src="images/Ellipse838.png" alt="user">
+                Mira Rosser
+            </a>
         </div>
         <div class="menu-left">
             <h1>DelHos</h1>
@@ -111,8 +172,513 @@
                                 </div>
                             </form>
                         </div>
+                        <div class="box-tb2">  
+                            <!-- <div id="calendar"></div> -->
+                            <h3 class="pad">01-07 January 2022</h3>
+                            <select class="form-control sel-con">
+                                <option value="val1">Week</option>
+                                <option value="val2">Month</option>
+                                <option value="val3">Day</option> 
+                            </select>
+                            <div class="table-responsive">
+                                <table class="table">
+                                    <thead>
+                                        <tr>
+                                            <th>
+                                                <img src="images/fa6-regular_clock.png" alt="clock">
+                                            </th>
+                                            <th>
+                                                <h2>1</h2>
+                                                <p>อาทิตย์</p>
+                                            </th>
+                                            <th>
+                                                <h2>2</h2>
+                                                <p>จันทร์</p>
+                                            </th>
+                                            <th>
+                                                <h2>3</h2>
+                                                <p>อังคาร</p>
+                                            </th>
+                                            <th class="active">
+                                                <h2>4</h2>
+                                                <p>พุธ</p>
+                                            </th>
+                                            <th>
+                                                <h2>5</h2>
+                                                <p>พฤหัสบดี</p>
+                                            </th>
+                                            <th>
+                                                <h2>6</h2>
+                                                <p>ศุกร์</p>
+                                            </th>
+                                            <th>
+                                                <h2>7</h2>
+                                                <p>เสาร์</p>
+                                            </th>
+                                        </tr>
+                                    </thead>
+                                    <tbody>
+                                        <tr>
+                                            <td>
+                                                <div>8:00</div>
+                                            </td>
+                                            <td>
+                                                <div></div>
+                                            </td>
+                                            <td>
+                                                <div>
+                                                    <div class="event event-yellow">
+                                                        <p class="bg-yellow"></p>
+                                                        000065 <span>08:00</span>
+                                                    </div>
+                                                    <div class="event event-green">
+                                                        <p class="bg-green"></p>
+                                                        000065 <span>08:00</span>
+                                                    </div>
+                                                    <div class="event event-orange">
+                                                        <p class="bg-orange"></p>
+                                                        000065 <span>08:00</span>
+                                                    </div>
+                                                </div>
+                                            </td>
+                                            <td>
+                                                <div>
+                                                    
+                                                    <div class="event event-red">
+                                                        <p class="bg-red"></p>
+                                                        000065 <span>08:00</span>
+                                                    </div>
+                                                    <div class="event event-red">
+                                                        <p class="bg-red"></p>
+                                                        000065 <span>08:00</span>
+                                                    </div>
+                                                    <div class="event event-red">
+                                                        <p class="bg-red"></p>
+                                                        000065 <span>08:00</span>
+                                                    </div>
+                                                </div>
+                                            </td>
+                                            <td class="active">
+                                                <div>
+                                                    
+                                                    <div class="event event-green">
+                                                        <p class="bg-green"></p>
+                                                        000065 <span>08:00</span>
+                                                    </div>
+                                                    <div class="event event-blue1">
+                                                        <p class="bg-blue1"></p>
+                                                        000065 <span>08:00</span>
+                                                    </div>
+                                                    <div class="event event-yellow">
+                                                        <p class="bg-yellow"></p>
+                                                        000065 <span>08:00</span>
+                                                    </div>
+                                                </div>
+                                            </td>
+                                            <td>
+                                                <div> 
+                                                    <div class="event event-blue2">
+                                                        <p class="bg-blue2"></p>
+                                                        000065 <span>08:00</span>
+                                                    </div>
+                                                    <div class="event event-blue2">
+                                                        <p class="bg-blue2"></p>
+                                                        000065 <span>08:00</span>
+                                                    </div>
+                                                    <div class="event event-blue2">
+                                                        <p class="bg-blue2"></p>
+                                                        000065 <span>08:00</span>
+                                                    </div>
+                                                </div>
+                                            </td>
+                                            <td>
+                                                <div></div>
+                                            </td>
+                                            <td>
+                                                <div></div>
+                                            </td>
+                                        </tr> 
+                                        <tr>
+                                            <td>
+                                                <div>9:00</div>
+                                            </td> 
+                                            <td>
+                                                <div></div>
+                                            </td>
+                                            <td>
+                                                <div>
+                                                    <div class="event event-yellow">
+                                                        <p class="bg-yellow"></p>
+                                                        000065 <span>08:00</span>
+                                                    </div>
+                                                    <div class="event event-green">
+                                                        <p class="bg-green"></p>
+                                                        000065 <span>08:00</span>
+                                                    </div>
+                                                    <div class="event event-orange">
+                                                        <p class="bg-orange"></p>
+                                                        000065 <span>08:00</span>
+                                                    </div>
+                                                </div>
+                                            </td>
+                                            <td>
+                                                <div>
+                                                    <div class="event event-purple">
+                                                        <p class="bg-purple"></p>
+                                                        000065 <span>08:00</span>
+                                                    </div>
+                                                    <div class="event event-purple">
+                                                        <p class="bg-purple"></p>
+                                                        000065 <span>08:00</span>
+                                                    </div>
+                                                    <div class="event event-purple">
+                                                        <p class="bg-purple"></p>
+                                                        000065 <span>08:00</span>
+                                                    </div>
+                                                </div>
+                                            </td>
+                                            <td class="active">
+                                                <div></div>
+                                            </td>
+                                            <td>
+                                                <div> 
+                                                    <div class="event event-yellow">
+                                                        <p class="bg-yellow"></p>
+                                                        000065 <span>08:00</span>
+                                                    </div>
+                                                    <div class="event event-yellow">
+                                                        <p class="bg-yellow"></p>
+                                                        000065 <span>08:00</span>
+                                                    </div>
+                                                    <div class="event event-yellow">
+                                                        <p class="bg-yellow"></p>
+                                                        000065 <span>08:00</span>
+                                                    </div>
+                                                </div>
+                                            </td>
+                                            <td>
+                                                <div></div>
+                                            </td>
+                                            <td>
+                                                <div></div>
+                                            </td> 
+                                        </tr> 
+                                        <tr>
+                                            <td>
+                                                <div>10:00</div>
+                                            </td>
+                                            <td>
+                                                <div></div>
+                                            </td>
+                                            <td>
+                                                <div>
+                                                    <div class="event event-orange">
+                                                        <p class="bg-orange"></p>
+                                                        000065 <span>08:00</span>
+                                                    </div>
+                                                    <div class="event event-orange">
+                                                        <p class="bg-orange"></p>
+                                                        000065 <span>08:00</span>
+                                                    </div>
+                                                    <div class="event event-orange">
+                                                        <p class="bg-orange"></p>
+                                                        000065 <span>08:00</span>
+                                                    </div>
+                                                </div>
+                                            </td>
+                                            <td>
+                                                <div>
+                                                    <div class="event event-red">
+                                                        <p class="bg-red"></p>
+                                                        000065 <span>08:00</span>
+                                                    </div>
+                                                    <div class="event event-yellow">
+                                                        <p class="bg-yellow"></p>
+                                                        000065 <span>08:00</span>
+                                                    </div>
+                                                    <div class="event event-orange">
+                                                        <p class="bg-orange"></p>
+                                                        000065 <span>08:00</span>
+                                                    </div>
+                                                </div>
+                                            </td>
+                                            <td class="active">
+                                                <div></div>
+                                            </td>
+                                            <td>
+                                                <div></div>
+                                            </td>
+                                            <td>
+                                                <div></div>
+                                            </td>
+                                            <td>
+                                                <div></div>
+                                            </td>
+                                        </tr> 
+                                        <tr>
+                                            <td>
+                                                <div>11:00</div>
+                                            </td>
+                                            <td>
+                                                <div></div>
+                                            </td>
+                                            <td>
+                                                <div>
+                                                    <div class="event event-yellow">
+                                                        <p class="bg-yellow"></p>
+                                                        000065 <span>08:00</span>
+                                                    </div>
+                                                    <div class="event event-green">
+                                                        <p class="bg-green"></p>
+                                                        000065 <span>08:00</span>
+                                                    </div>
+                                                    <div class="event event-orange">
+                                                        <p class="bg-orange"></p>
+                                                        000065 <span>08:00</span>
+                                                    </div>
+                                                </div>
+                                            </td>
+                                            <td>
+                                                <div></div>
+                                            </td>
+                                            <td class="active">
+                                                <div></div>
+                                            </td> 
+                                            <td>
+                                                <div>
+                                                    <div class="event event-green">
+                                                        <p class="bg-green"></p>
+                                                        000065 <span>08:00</span>
+                                                    </div>
+                                                    <div class="event event-green">
+                                                        <p class="bg-green"></p>
+                                                        000065 <span>08:00</span>
+                                                    </div>
+                                                    <div class="event event-green">
+                                                        <p class="bg-green"></p>
+                                                        000065 <span>08:00</span>
+                                                    </div>
+                                                </div>
+                                            </td>
+                                            <td>
+                                                <div></div>
+                                            </td>
+                                            <td>
+                                                <div></div>
+                                            </td>
+                                        </tr> 
+                                        <tr>
+                                            <td>
+                                                <div>12:00</div>
+                                            </td>
+                                            <td>
+                                                <div></div>
+                                            </td>
+                                            <td>
+                                                <div></div>
+                                            </td>
+                                            <td>
+                                                <div></div>
+                                            </td>
+                                            <td class="active">
+                                                <div></div>
+                                            </td>
+                                            <td>
+                                                <div>
+                                                    <div class="event event-green">
+                                                        <p class="bg-green"></p>
+                                                        000065 <span>08:00</span>
+                                                    </div>
+                                                    <div class="event event-green">
+                                                        <p class="bg-green"></p>
+                                                        000065 <span>08:00</span>
+                                                    </div>
+                                                    <div class="event event-green">
+                                                        <p class="bg-green"></p>
+                                                        000065 <span>08:00</span>
+                                                    </div>
+                                                </div>
+                                            </td>
+                                            <td>
+                                                <div></div>
+                                            </td>
+                                            <td>
+                                                <div></div>
+                                            </td>
+                                        </tr> 
+                                        <tr>
+                                            <td>
+                                                <div>13:00</div>
+                                            </td>
+                                            <td>
+                                                <div></div>
+                                            </td>
+                                            <td>
+                                                <div></div>
+                                            </td>
+                                            <td>
+                                                <div></div>
+                                            </td>
+                                            <td class="active">
+                                                <div></div>
+                                            </td> 
+                                            <td>
+                                                <div>
+                                                    <div class="event event-green">
+                                                        <p class="bg-green"></p>
+                                                        000065 <span>08:00</span>
+                                                    </div>
+                                                    <div class="event event-green">
+                                                        <p class="bg-green"></p>
+                                                        000065 <span>08:00</span>
+                                                    </div>
+                                                    <div class="event event-green">
+                                                        <p class="bg-green"></p>
+                                                        000065 <span>08:00</span>
+                                                    </div>
+                                                </div>
+                                            </td>
+                                            <td>
+                                                <div></div>
+                                            </td>
+                                            <td>
+                                                <div></div>
+                                            </td>
+                                        </tr> 
+                                        <tr>
+                                            <td>
+                                                <div>14:00</div>
+                                            </td>
+                                            <td>
+                                                <div></div>
+                                            </td>
+                                            <td>
+                                                <div></div>
+                                            </td>
+                                            <td>
+                                                <div></div>
+                                            </td>
+                                            <td class="active">
+                                                <div></div>
+                                            </td>
+                                            <td>
+                                                <div></div>
+                                            </td>
+                                            <td>
+                                                <div></div>
+                                            </td>
+                                            <td>
+                                                <div></div>
+                                            </td>
+                                        </tr> 
+                                        <tr>
+                                            <td>
+                                                <div>15:00</div>
+                                            </td>
+                                            <td>
+                                                <div></div>
+                                            </td>
+                                            <td>
+                                                <div></div>
+                                            </td>
+                                            <td>
+                                                <div></div>
+                                            </td>
+                                            <td class="active">
+                                                <div></div>
+                                            </td>
+                                            <td>
+                                                <div></div>
+                                            </td>
+                                            <td>
+                                                <div></div>
+                                            </td>
+                                            <td>
+                                                <div></div>
+                                            </td>
+                                        </tr> 
+                                        <tr>
+                                            <td>
+                                                <div>16:00</div>
+                                            </td>
+                                            <td>
+                                                <div></div>
+                                            </td>
+                                            <td>
+                                                <div></div>
+                                            </td>
+                                            <td>
+                                                <div></div>
+                                            </td>
+                                            <td class="active">
+                                                <div></div>
+                                            </td>
+                                            <td>
+                                                <div></div>
+                                            </td>
+                                            <td>
+                                                <div></div>
+                                            </td>
+                                            <td>
+                                                <div></div>
+                                            </td>
+                                        </tr> 
+                                    </tbody>
+                                </table>
+                            </div>
+                        </div>
                     </div>
+         
                     <div class="col-xl-3">  
+                        <div class="box-tb3">
+                            <div class="date"></div>
+                            <div class="col">
+                                <h4>เคส <span> 4 มค. 22</span></h4>
+                                <div class="case">
+                                    <div>
+                                        <div class="box bg1">130</div>
+                                        <h5>ทั้งหมด</h5>
+                                    </div>
+                                    <div>
+                                        <div class="box bg2">100</div>
+                                        <h5>ตรวจแล้ว</h5>
+                                    </div>
+                                    <div>
+                                        <div class="box bg3">30</div>
+                                        <h5>เหลือ</h5>
+                                    </div>
+                                </div>
+                                <br>
+                                <h2>แพทย์วันนี้</h2>
+                                <ul class="doctor-today">
+                                    <li>
+                                        <img src="images/Ellipse838.png" alt="doctor">
+                                        <h3>Cristofer Herwitz</h3>
+                                        <h6>หู คอ จมูก</h6>
+                                    </li>
+                                    <li>
+                                        <img src="images/Ellipse8382.png" alt="doctor">
+                                        <h3>Cristofer Herwitz</h3>
+                                        <h6>หู คอ จมูก</h6>
+                                    </li>
+                                    <li>
+                                        <img src="images/Ellipse838.png" alt="doctor">
+                                        <h3>Cristofer Herwitz</h3>
+                                        <h6>หู คอ จมูก</h6>
+                                    </li>
+                                    <li>
+                                        <img src="images/Ellipse838.png" alt="doctor">
+                                        <h3>Cristofer Herwitz</h3>
+                                        <h6>หู คอ จมูก</h6>
+                                    </li>
+                                    <li>
+                                        <img src="images/Ellipse838.png" alt="doctor">
+                                        <h3>Cristofer Herwitz</h3>
+                                        <h6>หู คอ จมูก</h6>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
                     </div>
                 </div>
             </div>
@@ -120,14 +686,30 @@
     </main> 
 
 
-	<script src="https://code.jquery.com/jquery-3.5.1.min.js"></script> 
-    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"></script>
-    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>  
+	<script src="https://code.jquery.com/jquery-3.5.1.min.js"></script>  
+	<script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>    
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"></script> 
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>   
+    
+	
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-datepicker/1.9.0/js/bootstrap-datepicker.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-datepicker/1.9.0/locales/bootstrap-datepicker.th.min.js"></script>
 
-	<script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script> 
-	<script src="https://cdnjs.cloudflare.com/ajax/libs/lightslider/1.1.6/js/lightslider.js"></script> 
+    <script> 
 
- 
- 
+        $('.date').datepicker({
+            clearBtn: false,
+            language: "th",
+            calendarWeeks: false,
+            autoclose: true,
+            todayHighlight: true,
+            format: 'dd/mm/yyyy',
+            toggleActive: true
+        });
+    </script>
+
+    
+
+
 </body>
 </html>
