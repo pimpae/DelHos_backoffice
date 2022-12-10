@@ -16,6 +16,7 @@
 
 </head>
 <body class="main-b"> 
+    <div  class="menu-mbx pc-x"><i class="fas fa-bars"></i></div>
     <main>
         <div class="menu-top">
             
@@ -631,7 +632,7 @@
          
                     <div class="col-xl-3">  
                         <div class="box-tb3">
-                            <div class="date"></div>
+                            <div class="date d-flex justify-content-center"></div>
                             <div class="col">
                                 <h4>เคส <span> 4 มค. 22</span></h4>
                                 <div class="case">
@@ -705,6 +706,12 @@
             todayHighlight: true,
             format: 'dd/mm/yyyy',
             toggleActive: true
+        });
+        $(".menu-mbx").click(function() {
+            $(".main-b").addClass("active");
+        });
+        $(".menu-left").click(function() {
+            $(".main-b").removeClass("active");
         });
     </script>
 
