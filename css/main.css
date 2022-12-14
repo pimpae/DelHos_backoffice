@@ -1167,7 +1167,173 @@ span.treeSelector b span:hover{
   color: #224096;
   font-weight: bold;
 }
+.table-exam img.device{
+  width: 22px !important;
+  height: 18px !important;
+}
+.table-exam img.os{
+  width: 20px !important;
+  height: 24px !important;
+} 
+.table-exam img.location{
+  width: 24px !important;
+  height: 24px !important;
+}
+.tabs-examination h4{
+  font-family: NotoSansThai-Bold; 
+  font-style: normal;
+  font-weight: 700;
+  font-size: 32px;
+  line-height: 48px; 
+  color: #224096;
+  padding-bottom: 24px;
+  border-bottom: 1px solid #DDDDDD; 
+  margin-bottom: 24px;
+} 
+.form-examination h4{
+  font-family: NotoSansThai-Bold; 
+  font-style: normal;
+  font-weight: 700;
+  font-size: 32px;
+  line-height: 48px; 
+  color: #224096;
+  padding-bottom: 24px;
+  border-bottom: 1px solid #DDDDDD; 
+  margin-bottom: 24px;
+} 
+.form-examination h6{
+  font-family: NotoSansThai-Regular; 
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 32px; 
+  color: #808080;
+}
 
+.form-examination hr{
+  border-bottom: 1px solid #DDDDDD; 
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
+.form-examination h5{
+  font-family: NotoSansThai-Bold; 
+  font-style: normal;
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 32px; 
+  color: #224096;
+}
+.form-examination .img-profile{
+  position: relative;
+  padding-left: 97px;
+  margin-top: 20px;
+}
+.form-examination .img-profile img{
+  position: absolute;
+  width: 80px;
+  height: 80px;
+  border-radius: 100%;
+  object-fit: cover;
+  left: 0;
+}
+.form-examination .img-profile h5{
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 32px; 
+  color: #18181B; 
+}
+.form-examination .img-profile h6{
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 32px; 
+  color: #808080;
+} 
+.profile-pic {
+  position: absolute;
+  width: 80px;
+  height: 80px;
+  border-radius: 100%;
+  object-fit: cover;
+  left: 0;
+}
+
+.file-upload {
+  display: none;
+} 
+.p-image {
+  width: 32px;
+  height: 32px;
+  border-radius: 100%;
+  position: absolute;
+  top: 50px;
+  left: 45px;
+  color: #666666;
+  transition: all .3s cubic-bezier(.175, .885, .32, 1.275);
+  background-color: #fff;
+  text-align: center;
+}
+.p-image:hover {
+  transition: all .3s cubic-bezier(.175, .885, .32, 1.275);
+}
+.upload-button {
+  font-size: 1rem !important;
+  color: #3AA3F4 !important; 
+  line-height: 30px !important;
+} 
+.upload-button:hover {
+  transition: all .3s cubic-bezier(.175, .885, .32, 1.275);
+  color: #999;
+}
+.form-examination form label{
+  font-family: NotoSansThai-SemiBold; 
+  font-style: normal;
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 24px; 
+  color: #18181B; 
+}
+.form-examination form label span{ 
+  color: #E82F2F; 
+}
+.form-examination form .form-control{
+  font-family: NotoSansThai-Regular; 
+  height: 48px; 
+  background: #FFFFFF; 
+  border: 1px solid #DDDDDD;
+  border-radius: 8px;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 24px; 
+  color: #18181B; 
+  margin-bottom: 20px
+} 
+.form-examination form .btn-primary{
+  font-family: NotoSansThai-SemiBold; 
+  width: 152px; 
+  height: 48px; 
+  background: #224096;
+  border-radius: 8px;
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 20px; 
+  color: #fff;
+}  
+.form-examination form .btn-default{
+  font-family: NotoSansThai-SemiBold; 
+  width: 152px; 
+  height: 48px; 
+  background: #F6F6F6; 
+  border-radius: 8px;
+  margin-right: 16px;
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 20px; 
+  color: #18181B;
+} 
 
 
 
@@ -1334,7 +1500,11 @@ Light_Blue  #9DABD3
   .treeSelection ul li {
     display: inline-block;
     width: 50%;
-  }
+  }   
+  .form-examination form .btn-default{   
+    margin-right: 0px; 
+  } 
+
 }
 @media (min-width: 1200px){
   .container, .container-lg, .container-md, .container-sm, .container-xl {
@@ -1370,5 +1540,25 @@ Light_Blue  #9DABD3
   }
   .menu-left{ 
     width: 322px; 
+  }
+}
+@media (width: 768px){  
+  .menu-left:after{  
+    content: "";
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 80%;
+    height: 100%;
+    background-color: #fff;
+    z-index: -1;
+  }
+}
+@media (width: 1024px){  
+  .main-sec{
+    padding: 120px 15px 30px 250px;
+  }
+  .menu-left {
+    width: 222px;
   }
 }
