@@ -1334,6 +1334,37 @@ span.treeSelector b span:hover{
   line-height: 20px; 
   color: #18181B;
 } 
+.tabs-dash .nav-tabs {
+  justify-content: end;
+  border-bottom: 0px;
+  background: #FFFFFF;
+  border-radius: 8px;
+  width: 468px;
+  float: right;
+}
+.tabs-dash .nav-tabs .nav-item{
+  min-width: 152px; 
+}
+.tabs-dash .nav-tabs .nav-item .nav-link{ 
+  width: 156px;
+  height: 48px; 
+  background: #FFFFFF; 
+  border: 1px solid #DDDDDD;
+  text-align: center;
+  font-family: NotoSansThai-SemiBold; 
+  color: #808080;
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 34px;
+  border-radius: 0px;
+} 
+.tabs-dash .nav-tabs .nav-item .nav-link.active{  
+  border-radius: 8px; 
+  background: linear-gradient(270.18deg, #224096 0.15%, #3AA3F4 147.41%);
+  box-shadow: 0px 4px 8px rgba(128, 174, 255, 0.08);
+  border-radius: 8px;
+  color: #fff;
+}
 
 
 
