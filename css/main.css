@@ -1365,8 +1365,197 @@ span.treeSelector b span:hover{
   border-radius: 8px;
   color: #fff;
 }
+.label-box{
+  height: 128px; 
+  background: #FFFFFF;
+  box-shadow: 0px 4px 16px rgba(16, 30, 115, 0.06);
+  border-radius: 12px;
+  padding: 16px;
+  margin-bottom: 30px;
+  position: relative;
+}
+.label-box h6{
+  font-family: NotoSansThai-SemiBold; 
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 24px; 
+  color: #18181B; 
+} 
+.label-box h6 span{
+  font-family: 'Inter';
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 28px;  
+  float: right;
+}
+.label-box h6 span.plus{ 
+  color: #09B338; 
+}
+.label-box h6 span.minus{ 
+  color: #E82F2F; 
+}
+.label-box h1{
+  font-family: 'Inter';
+  font-style: normal;
+  margin-top: 24px;
+  font-weight: 700;
+  font-size: 32px;
+  line-height: 48px; 
+  color: #224096; 
+} 
+.label-box h1 span{ 
+  font-family: NotoSansThai-Regular; 
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 32px; 
+  color: #808080; 
+}  
+.label-box h5{
+  padding-left: 48px;
+  font-family: NotoSansThai-SemiBold; 
+  font-weight: 600;
+  font-size: 20px; 
+  color: #18181B;  
+  line-height: 40px; 
+  margin-bottom: -12px;
+} 
+.label-box h5 span{
+  font-family: 'Inter';
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 28px;  
+  float: right;
+}
+.label-box h5 span.plus{ 
+  color: #09B338; 
+}
+.label-box h5 span.minus{ 
+  color: #E82F2F; 
+}
+.label-box .img{ 
+  z-index: 1;
+  position: absolute;
+  width: 40px;
+  height: 40px;
+  left: 16px;
+  top: 16px;   
+  padding: 9px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 100%;
+} 
+.label-box .img img{ 
+  max-height: 100%;
+} 
+.label-box .img.danger{  
+  background: rgba(232, 47, 47 , .1) ; 
+}
+.label-box .img.success{  
+  background: rgba(9, 179, 56 ,.1);
+} 
+.label-box .img.info{  
+  background: rgba(58, 163, 244 , .1);
+}  
+.label-box h2{
+  font-family: 'Inter';
+  font-style: normal;
+  margin-top: 24px;
+  font-weight: 700;
+  font-size: 32px;
+  line-height: 48px; 
+  color: #18181B; 
+} 
+.label-box h2 span{ 
+  font-family: NotoSansThai-Regular; 
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 32px; 
+  color: #808080; 
+}  
+.table-text{ 
+  margin-bottom: 30px;
+}
+.table-text thead tr th{
+  font-size: 16px;
+  line-height: 20px; 
+  text-align: center;
+  font-family: NotoSansThai-SemiBold; 
+  border-top: 0px;
+  border-bottom: 0px;
+  background: #F6F6F6; 
+  vertical-align: middle;
+  border-bottom: 0px;
+}
+.table-text thead tr th:first-child{
+  border-top-left-radius: 12px;
+}
+.table-text thead tr th:last-child{
+  border-top-right-radius: 12px;
+}
+.table-text{
+  padding: 16px;
+  background: #FFFFFF;
+  box-shadow: 0px 4px 16px rgba(16, 30, 115, 0.06);
+  border-radius: 12px;
+}
+.table-text tbody tr td{ 
+  border-top: 0px;
+  text-align: center;
+  vertical-align: middle;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 20px; 
+  color: #18181B;
+}
+.table-text tbody tr:nth-child(even){ 
+  background: #F6F6F6;
+}  
+.panel-box{
+  padding: 16px;
+  background: #FFFFFF;
+  box-shadow: 0px 4px 16px rgba(16, 30, 115, 0.06);
+  border-radius: 12px; 
+  margin-bottom: 30px;
+  position: relative;
+} 
+.panel-box h3{
+  position: absolute;
+  left: 16px;
+  top: 16px;
+  font-family: NotoSansThai-Bold; 
+  font-style: normal;
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 24px; 
+  color: #18181B;
 
+}
+.pie-legend {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  font-family: NotoSansThai-Bold; 
+}
 
+  .pie-legend span {
+      display: inline-block;
+      width: 14px;
+      height: 14px;
+      border-radius: 100%;
+      margin-right: 16px;
+      margin-bottom: -2px;
+      font-family: NotoSansThai-Bold; 
+  }
+
+  .pie-legend li {
+      margin-bottom: 10px;
+      display: inline-block;
+      margin-right: 10px;
+      font-family: NotoSansThai-Bold; 
+  }
 
 /*  
   font-family: NotoSansThai-Bold; 
@@ -1574,6 +1763,18 @@ Light_Blue  #9DABD3
   }
 }
 @media (width: 768px){  
+  .menu-left:after{  
+    content: "";
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 80%;
+    height: 100%;
+    background-color: #fff;
+    z-index: -1;
+  }
+}
+@media (width: 820px){  
   .menu-left:after{  
     content: "";
     position: absolute;
